@@ -1,5 +1,10 @@
 package main
 
+import (
+	"os"
+)
+
 func main() {
-	startRepl()
+	input := os.Args[1]
+	processInput(input)
 }
